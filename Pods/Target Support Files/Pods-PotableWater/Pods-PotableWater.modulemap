@@ -1,0 +1,6 @@
+framework module Pods_PotableWater {
+  umbrella header "Pods-PotableWater-umbrella.h"
+
+  export *
+  module * { export * }
+}

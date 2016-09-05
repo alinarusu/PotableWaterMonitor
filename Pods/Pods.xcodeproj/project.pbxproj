@@ -1,0 +1,1441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E3A68D030F24BE47B99D1D1A1720E2 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C1DA36BECF8F6EB3AF6EF911B012F8 /* UIColor+ChameleonPrivate.m */; };
+		0264E6DA5DAC8713C174F983B218D10D /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C943E6881CA5A0D281A804973297086 /* IQKeyboardManagerConstants.swift */; };
+		0300F4CF1DEBD5E3208041AD4B9C19B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D31AF728F56D0CAFFECA7DF51E2E0E6 /* Foundation.framework */; };
+		0508822F1FCECD98EE644EACE40DFA55 /* Pods-PotableWater-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCABDBF8BDD8D6A106B5F7C3E6EF0A44 /* Pods-PotableWater-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06EDB944284E74970F312CB7F2910C07 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51173793132E538FEE2CE6ADC1DB09E1 /* IQBarButtonItem.swift */; };
+		072BEEF7E71F00675E87028A9A668B84 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CF8CAD658555566C04AC2EC79AD2AE /* UIImage+ChameleonPrivate.m */; };
+		0814AEFB3EFDF8D18ED8B40872C24220 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BFCC5FCF20BECEF409508768C21E64 /* UIKit.framework */; };
+		0C6F052361FE462C51F2325A52366FE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3212D7BC0710FE50E49B5AD2D9C0D0F /* CoreGraphics.framework */; };
+		139250EF8D4E404AD5019BA8966C0ED0 /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 102035E3ABDF430CC44415D02317ABA2 /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		160634C0F5454A32E810DDF5BA9E5985 /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 32327E9632D7C0CC404B169A5FFB74F1 /* NSArray+Chameleon.m */; };
+		1704F8676220C6AC2774E63297A7810A /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F79C34FA4A4DF1D11B7B2B0FBAC66E /* LayoutConstraint.swift */; };
+		1716FA0939818C49FE4BBE6A658E9834 /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C923908C9F05E0A00CFED59E4E0685 /* UIButton+Chameleon.m */; };
+		1DE26E57570167EE496080D68F855A01 /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 36096647A7CA1D7E600C2F6D6820C42A /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E77BE7819B5DCB3BFBB7B80AEAE35BF /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5770F11DDBFCBB1466227DF0CDBB50 /* Debugging.swift */; };
+		22D27B8BB7D176C72C4869C18A9CD171 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253DBB771C3ECCFBAB40F125CF3C56EE /* Constraint.swift */; };
+		23795D7EC1AF274A6AFF4233B1E84C4C /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C39A1C818F495EA0E433B2E9C3FDF /* UINavigationController+Chameleon.m */; };
+		2641CD2EBD374904D2E5759683B97B76 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A62F2DA7EEDCB9EF9CB520B159BA9F /* IQUIScrollView+Additions.swift */; };
+		26C3425F45F1374791CB8B07AD01942D /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C71F6968CDDD4930DA429ECD14FBDB1B /* IQKeyboardManager.bundle */; };
+		2E2946436612A5B920BE18E09BF80CAF /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1B17BC6C3A6E511AF517BFDE51B2C1 /* UIViewController+Chameleon.m */; };
+		3132A9EBC1F85B6971B934C88914CD58 /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = E817CBA81C0DDD081FDA82FDCE8A3F09 /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		333BDD2D3C8A0DA37682191E2A9BABAF /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB56C70F920B3362413BAF6C68972A8 /* ViewController+SnapKit.swift */; };
+		3B082E6ACCC2D096E28EE29CE82F89F6 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CEB7B22E5A1ACA7B376ED952105F1C /* IQUIViewController+Additions.swift */; };
+		3CCCC6F0C10F65283522C54CF1D6E761 /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 44EA351A2F526EB60EE7787B250D3AEC /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D1FF907F6AD5186FAF926C0F20083AE /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = D63A9E08C6451FDD7835DB9A83ABEEAB /* Chameleon_.m */; };
+		41E19345B5C2331DAA02119D782F4E5F /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7CAE060882979C71E9A07870AF9CAE /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4325AB8E42E4CB176F8FFF81FFB6716E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA250D6AAA3D67B08752113FC8DF203 /* QuartzCore.framework */; };
+		467432A72F499AA8143296FC2AD075A2 /* CariocaMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C81D8767BC5D3C8BF00012DDC268DD /* CariocaMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46DBC0D437F63AEC2B648232C81315E1 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B6DFDEFA67763A32F64F396C6C09ED /* ConstraintAttributes.swift */; };
+		4959FD0B8A9C9EE88269C0C4860A8148 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69952FDC28C754388B1B50FFBFC3B5F /* ConstraintMaker.swift */; };
+		4B181B0AC8894DE05050B3F6718D392C /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = B66CEA0CF2C1BFF975B48D05A913E110 /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D7B87E23BD14E4515B42D40A29DD972 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D31AF728F56D0CAFFECA7DF51E2E0E6 /* Foundation.framework */; };
+		4E53C48294089DC928E3A7BD1C2DE4D7 /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB6F2AFA94D6C6096DD8FC81AE4C5FA /* UIColor+Chameleon.m */; };
+		4FB5F74ED51F0AF546902B73BC50E0AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D31AF728F56D0CAFFECA7DF51E2E0E6 /* Foundation.framework */; };
+		5100E776656DEB6881B926F2B4F88D47 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC882BB3BDF697F32686FE458CC51C2B /* ConstraintItem.swift */; };
+		59D87C6DDEE038D47CC06ECFA3478F66 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DBD2DDA2CB0A831E4F0BF60E4E8B5D /* IQNSArray+Sort.swift */; };
+		5B0AED1A692512B9A329D49C4380D1F9 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98C66C3D232BB70926797B76BC2564D9 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BF38591007E7E4ADAD878E405949598 /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47129A4D2988182917A315AC028705 /* ChameleonConstants.m */; };
+		5D7A6497FAA9C3B0686572AAE46AB779 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8169779ED575906A12D59AAA7874CC39 /* SnapKit.swift */; };
+		5DCD12C2C139245388578C182CACC06D /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A62A2E5E5E563F4510F6F8E53F40445 /* IQUIWindow+Hierarchy.swift */; };
+		7A8C05065D9F9BA2C218F75AD6B1F798 /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFFF6EA0316528101C536E5A21165E3 /* UIAppearance+Swift.m */; };
+		7EDDB8F47291F592694D7135A10DAFFF /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 89288DBD939CE3BC9D9EEBF02175337B /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		879EDC2C7E8100C20DD5C06ACCF75467 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF379952B88F6512681335C25A19B7CA /* IQKeyboardManagerConstantsInternal.swift */; };
+		8B167C3CE524E7490763846BC47C5824 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6D4CB39C17934C5B0D329CA0B8F580 /* SnapKit-dummy.m */; };
+		8FA4A2FB3306C4DE48DECBA15A47C663 /* CariocaMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E93DD9F31569E2E3B05108CA9353DE0 /* CariocaMenu.swift */; };
+		91030AF37F93914AB64B6D95F55E762D /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56F4742285532A2EF1F77A7222B0093 /* IQToolbar.swift */; };
+		989EE4ED1C86991E81339AF1CBF3654A /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA531F9A697D20060FA8165EB08824B /* IQUIView+Hierarchy.swift */; };
+		9EEBF7B1602C1C17236C4EA0DD9717E2 /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = AC50A712DE39393A9BDDAEB1D12164EC /* UILabel+Chameleon.m */; };
+		A2A452C71C8D9F1EED2FB1C611B50BF1 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D0CE9F8420DDA5E5D514A76F2DF7D6 /* View+SnapKit.swift */; };
+		A2FF64B577CEAC43E765D9E4AF96F432 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18718FF4164C4AACAA74D3F3E05F0482 /* IQPreviousNextView.swift */; };
+		A3FAEF9CA01F3716E2B562F58AFAA046 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24733BE4DCDB69CF32F9E157C59E111A /* IQKeyboardReturnKeyHandler.swift */; };
+		ABED6A397C0C97A8B7E9C839475E362B /* Pods-PotableWater-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03149A579E37E82ECABF1F59518819A4 /* Pods-PotableWater-dummy.m */; };
+		B1709542A41A677BA835CEC032F4DB2D /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCE60FD192933F129D4619413F69F3B /* IQKeyboardManagerSwift-dummy.m */; };
+		B19DAE9773A2D1C69E7C9A9812D3E27E /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BBEEDD90AFCA72BF541FFAB9E9E543 /* ConstraintRelation.swift */; };
+		B3429381360BE9C37D00301284E4B63A /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 138D5D27D53779AAA5D505538615A211 /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6DB24F02D71E5B838910D3CCD1723F9 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B403A9F264C0AD2DBE9AAD41AC4B61EC /* IQKeyboardManager.swift */; };
+		B77C5A843A68E89AE7316DE3462B0A3A /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FE9957E5396A112EF3B67243103653 /* ConstraintDescription.swift */; };
+		BACEB4A1F7183C8A34C16333AA0CFC88 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C9CF51D92FF64B421F50341D5066F /* IQUIView+IQKeyboardToolbar.swift */; };
+		C2905200A0CEA22AF403EE0B5E244CEF /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555008FBFAF9B5B0BFB2D7C0400ECA9C /* IQTextView.swift */; };
+		C5D22B9D6600C31DC02CEC59BDA086B0 /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = C69F5D4DD141B5AB2F57401A1B6BB370 /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C61ED2CF225C6D9872D34F5455C945D4 /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE61C6F5635AE8AF9388DAA63A0335A /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C66E57E618FD5536917D0052777CC8EB /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE59140E91E564B696B39B323955694 /* IQTitleBarButtonItem.swift */; };
+		C76E3B78D128469AB4CBF1B4D1708360 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE1A21476F22C8680085200BD9AC23 /* IQUITextFieldView+Additions.swift */; };
+		C84DFC79CACF46C6275670861ADBA6D4 /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 10265169DA16A2F0B9223927F9CB1B03 /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC51E5C010ABC87B9CAAA1CB721A6A94 /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE2299E85439C47557A13AFAA381E0C /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9A2176DDA74929B52087FAA9B80E3C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D31AF728F56D0CAFFECA7DF51E2E0E6 /* Foundation.framework */; };
+		DDD470435EE37EBA46CD0FF081559295 /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FC060597FDB16410F00924FD83738F /* ChameleonFramework-dummy.m */; };
+		DFB6413C6EE7A07F649FA2612A66FAE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3212D7BC0710FE50E49B5AD2D9C0D0F /* CoreGraphics.framework */; };
+		E04963F0C6D76377186361A0AF79A4C6 /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAB3C791470F0DAF34834622B17B4B5 /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E53E2CD0E939A133E73880E7B3BB4DBF /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = FB35B19F4BB047313B0C83DA989AE0CF /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8B84517F8580A35AD4939E671F19FE1 /* CariocaMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB65A7256D44D485089096D5512196E7 /* CariocaMenu-dummy.m */; };
+		F0EC3920107562BEFAAA72F00B85BDD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D31AF728F56D0CAFFECA7DF51E2E0E6 /* Foundation.framework */; };
+		F32D7BD1DA58639964C91FA86A002AB4 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61721D14D281D6A5C821D21F599BC97D /* UIView+ChameleonPrivate.m */; };
+		F39E6121BE9036ACFC1475198A549720 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BFCC5FCF20BECEF409508768C21E64 /* UIKit.framework */; };
+		F5CC9B27F3CF472FE72A905E8C2D7A9D /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = B098162631892C5294CCF963F32BF87C /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F85099F6E9B7DB837BAB856EB61A6F07 /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 00388931377BCE53439A93C314A03CC0 /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA572FBF52E72DDB02512266A1D44F2F /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871861EB5AE9629F77BD3099AABA807 /* EdgeInsets.swift */; };
+		FA90B7D6EBE7A289796856FF2B310FC0 /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 606D124B373830DBA52E88B2AB8B0F63 /* ChameleonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18D05256286AF498838045C677D6E6E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B57F4EE4746045CEAE2D933A3C8EC9E;
+			remoteInfo = ChameleonFramework;
+		};
+		3A0716616F2DA2A07C6FCC39EB6AC000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 751982C2DD3296AD5D3FE0F1A9D974DA;
+			remoteInfo = CariocaMenu;
+		};
+		962934E3AC56AF3C66A87E1137CA0DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71027715F6476203999172EC4D1350F6;
+			remoteInfo = SnapKit;
+		};
+		B3346F1799F585BF56101D4981511F3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1520003FEBEC114D6C84F832AFEDB994;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00388931377BCE53439A93C314A03CC0 /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		02532795F15E225302618D5D9BD6710C /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		03149A579E37E82ECABF1F59518819A4 /* Pods-PotableWater-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PotableWater-dummy.m"; sourceTree = "<group>"; };
+		0A62A2E5E5E563F4510F6F8E53F40445 /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIWindow+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		0C943E6881CA5A0D281A804973297086 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		0FA82415C4F56EE9AB85517724DA2B73 /* Pods-PotableWater.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PotableWater.release.xcconfig"; sourceTree = "<group>"; };
+		102035E3ABDF430CC44415D02317ABA2 /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		10265169DA16A2F0B9223927F9CB1B03 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		138D5D27D53779AAA5D505538615A211 /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		15C81D8767BC5D3C8BF00012DDC268DD /* CariocaMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CariocaMenu-umbrella.h"; sourceTree = "<group>"; };
+		18718FF4164C4AACAA74D3F3E05F0482 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
+		24733BE4DCDB69CF32F9E157C59E111A /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		253DBB771C3ECCFBAB40F125CF3C56EE /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		2871861EB5AE9629F77BD3099AABA807 /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
+		2A79D3405938E5DB012699EC14918D01 /* Pods_PotableWater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PotableWater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE2299E85439C47557A13AFAA381E0C /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		2E36C43702E6DF1B5D9ABF852835E1D6 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		2E6D4CB39C17934C5B0D329CA0B8F580 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		321A3D4BEC008C8E880BA7309E8ECF49 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		32327E9632D7C0CC404B169A5FFB74F1 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		32BFCC5FCF20BECEF409508768C21E64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		335427756D04DAAE7F67EE3744046300 /* Pods-PotableWater-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PotableWater-resources.sh"; sourceTree = "<group>"; };
+		34CF8CAD658555566C04AC2EC79AD2AE /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		36096647A7CA1D7E600C2F6D6820C42A /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		3C5C24EEFC9FA6E7AF240328059B4848 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4030237BF5F3BAC521F5FE05B5A386B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437C9CF51D92FF64B421F50341D5066F /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		44EA351A2F526EB60EE7787B250D3AEC /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		4614A4DC57B326ECB7231824699A0F56 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		48F79C34FA4A4DF1D11B7B2B0FBAC66E /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		4BE59140E91E564B696B39B323955694 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		5072B099EBF1CE0139D214D234276100 /* Pods-PotableWater-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PotableWater-acknowledgements.plist"; sourceTree = "<group>"; };
+		51173793132E538FEE2CE6ADC1DB09E1 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		555008FBFAF9B5B0BFB2D7C0400ECA9C /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		57482D712332943BC319E12AC7139879 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2CA9EE7096F8F638934A10E1AC7958 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		5CAB3C791470F0DAF34834622B17B4B5 /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
+		5E93DD9F31569E2E3B05108CA9353DE0 /* CariocaMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CariocaMenu.swift; path = carioca/Library/CariocaMenu.swift; sourceTree = "<group>"; };
+		606D124B373830DBA52E88B2AB8B0F63 /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
+		61721D14D281D6A5C821D21F599BC97D /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		63C1DA36BECF8F6EB3AF6EF911B012F8 /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		63FE9957E5396A112EF3B67243103653 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		642B985D61A3AA6FE448B55E74C59F7D /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6877AB7B8D3BB1BA926A192070F74F04 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		6CFC675114C4F601FFA4C62EDE89E1AC /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		6FA2A98FD305B78339C18144A11D718B /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		70AEEFE00EA23B26F81562778AEB392D /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
+		712553FBC0495C4E3E9E3F52D93D6CBD /* IQKeyboardManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.xcconfig; sourceTree = "<group>"; };
+		72DF7EE246A5A0382C47AE537D2773A8 /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0C39A1C818F495EA0E433B2E9C3FDF /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		7E3C6A2190D0C4F6A61011DD34D6B104 /* CariocaMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CariocaMenu.xcconfig; sourceTree = "<group>"; };
+		8169779ED575906A12D59AAA7874CC39 /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
+		826A2EDC662C5E33EFC3DF8FE24B0339 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		88CEB7B22E5A1ACA7B376ED952105F1C /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		89288DBD939CE3BC9D9EEBF02175337B /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		89343F5FF5CBFAA4B51E320A94528B04 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		8AAEF9082A33B8219920D3C9106110BF /* CariocaMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CariocaMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D31AF728F56D0CAFFECA7DF51E2E0E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8D5770F11DDBFCBB1466227DF0CDBB50 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		8DA531F9A697D20060FA8165EB08824B /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		8EB56C70F920B3362413BAF6C68972A8 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		92F63D1821D695497F5E38BD0AC24B3F /* CariocaMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CariocaMenu-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93FC060597FDB16410F00924FD83738F /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
+		946300492A1B5D67B5B8F2FCBBFCE9F6 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		94B787A04915AB041EE977A96EF363C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B6DFDEFA67763A32F64F396C6C09ED /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		97BBEEDD90AFCA72BF541FFAB9E9E543 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		98C66C3D232BB70926797B76BC2564D9 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		9DA472E13355236F20AEF614344E1F48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DECD5DCF8F1218FBBA768292972EEDA /* Pods-PotableWater-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PotableWater-frameworks.sh"; sourceTree = "<group>"; };
+		A0A62F2DA7EEDCB9EF9CB520B159BA9F /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		A35BE04EF4FFBF2BCB1DDE4FC8D08A0F /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		A5D64E9D236C43714DBCE923E0D3F06C /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		A60AEAFDF40C5D175ADE81A102F1D090 /* Pods-PotableWater-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PotableWater-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ABB6F2AFA94D6C6096DD8FC81AE4C5FA /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		AC50A712DE39393A9BDDAEB1D12164EC /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		AC882BB3BDF697F32686FE458CC51C2B /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		AE36B5E63AD10F4A3CEDDE0496CA495A /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
+		B098162631892C5294CCF963F32BF87C /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
+		B403A9F264C0AD2DBE9AAD41AC4B61EC /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		B45AF3015BBE99771910D18C521965BF /* CariocaMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CariocaMenu.modulemap; sourceTree = "<group>"; };
+		B66CEA0CF2C1BFF975B48D05A913E110 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
+		BA21780D44851A35010C52FD8A351E6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCABDBF8BDD8D6A106B5F7C3E6EF0A44 /* Pods-PotableWater-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PotableWater-umbrella.h"; sourceTree = "<group>"; };
+		BDE61C6F5635AE8AF9388DAA63A0335A /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		BF379952B88F6512681335C25A19B7CA /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		C39996413CDED44BA01A37BB842003C9 /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
+		C68D78B5BA0B2675A72F943E817D832E /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		C69F5D4DD141B5AB2F57401A1B6BB370 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		C6C923908C9F05E0A00CFED59E4E0685 /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		C71F6968CDDD4930DA429ECD14FBDB1B /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		C9DBD2DDA2CB0A831E4F0BF60E4E8B5D /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		CAA250D6AAA3D67B08752113FC8DF203 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CD1B17BC6C3A6E511AF517BFDE51B2C1 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		D63A9E08C6451FDD7835DB9A83ABEEAB /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
+		D69952FDC28C754388B1B50FFBFC3B5F /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		DB7CAE060882979C71E9A07870AF9CAE /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
+		DBBE1A21476F22C8680085200BD9AC23 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		DC1075FA9EB1B924E2D6D7D86C2764F0 /* Pods-PotableWater.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PotableWater.modulemap"; sourceTree = "<group>"; };
+		DF47129A4D2988182917A315AC028705 /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
+		E3212D7BC0710FE50E49B5AD2D9C0D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		E5BE817E1E573E7F2D64B26E6D1DD4F9 /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
+		E6D0CE9F8420DDA5E5D514A76F2DF7D6 /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
+		E817CBA81C0DDD081FDA82FDCE8A3F09 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		EA16A0AFAC32DD7DFADD50DAEC9226EE /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		EB65A7256D44D485089096D5512196E7 /* CariocaMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CariocaMenu-dummy.m"; sourceTree = "<group>"; };
+		F1972338684B322B893A48DAC20B4EAF /* Pods-PotableWater.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PotableWater.debug.xcconfig"; sourceTree = "<group>"; };
+		F56F4742285532A2EF1F77A7222B0093 /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
+		FB35B19F4BB047313B0C83DA989AE0CF /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
+		FDFFF6EA0316528101C536E5A21165E3 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		FFCE60FD192933F129D4619413F69F3B /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D0E661242C853E94F4299270086801D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6F052361FE462C51F2325A52366FE4 /* CoreGraphics.framework in Frameworks */,
+				4D7B87E23BD14E4515B42D40A29DD972 /* Foundation.framework in Frameworks */,
+				4325AB8E42E4CB176F8FFF81FFB6716E /* QuartzCore.framework in Frameworks */,
+				0814AEFB3EFDF8D18ED8B40872C24220 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F240EC2E1E7F76CA22386F9552295F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB6413C6EE7A07F649FA2612A66FAE8 /* CoreGraphics.framework in Frameworks */,
+				F0EC3920107562BEFAAA72F00B85BDD3 /* Foundation.framework in Frameworks */,
+				F39E6121BE9036ACFC1475198A549720 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688E46E1C558386BACB556BA8E9295C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB5F74ED51F0AF546902B73BC50E0AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E93587EE3C8D9C4D050873DBCB44D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0300F4CF1DEBD5E3208041AD4B9C19B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9D6AFBBB57F7E86E9B5DD2F1563CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A2176DDA74929B52087FAA9B80E3C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F324101BF5841E258504EAC041DCAEF /* CariocaMenu */ = {
+			isa = PBXGroup;
+			children = (
+				5E93DD9F31569E2E3B05108CA9353DE0 /* CariocaMenu.swift */,
+				82E8E839666CD51734F77C0C1BDE85C4 /* Support Files */,
+			);
+			path = CariocaMenu;
+			sourceTree = "<group>";
+		};
+		12B5539FD47C461F8C422B7AF376F43B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FA2A98FD305B78339C18144A11D718B /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE9CAD94F3ADC0A91CD07526E38EDDFA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C8FA7F0EA3660141E39FA95CE2BECFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4614A4DC57B326ECB7231824699A0F56 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A765FC3871E1B4864FA36C9D362C3B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C39996413CDED44BA01A37BB842003C9 /* ChameleonFramework.modulemap */,
+				E5BE817E1E573E7F2D64B26E6D1DD4F9 /* ChameleonFramework.xcconfig */,
+				93FC060597FDB16410F00924FD83738F /* ChameleonFramework-dummy.m */,
+				AE36B5E63AD10F4A3CEDDE0496CA495A /* ChameleonFramework-prefix.pch */,
+				606D124B373830DBA52E88B2AB8B0F63 /* ChameleonFramework-umbrella.h */,
+				94B787A04915AB041EE977A96EF363C8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChameleonFramework";
+			sourceTree = "<group>";
+		};
+		34A9B081B92F44AE8E5CED0B7AA5C6D5 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				9E6BAB69ACE88A4F3A136E7B92E91AB9 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		35076ECCB1DE994D94F8BCFB4692C455 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				8DC469166D605DBD7B2DA77FF8A17089 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		4EC6D1103B55246E354379983892A4C8 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				B098162631892C5294CCF963F32BF87C /* Chameleon.h */,
+				5CAB3C791470F0DAF34834622B17B4B5 /* Chameleon_.h */,
+				D63A9E08C6451FDD7835DB9A83ABEEAB /* Chameleon_.m */,
+				B66CEA0CF2C1BFF975B48D05A913E110 /* ChameleonConstants.h */,
+				DF47129A4D2988182917A315AC028705 /* ChameleonConstants.m */,
+				FB35B19F4BB047313B0C83DA989AE0CF /* ChameleonEnums.h */,
+				DB7CAE060882979C71E9A07870AF9CAE /* ChameleonMacros.h */,
+				BDE61C6F5635AE8AF9388DAA63A0335A /* NSArray+Chameleon.h */,
+				32327E9632D7C0CC404B169A5FFB74F1 /* NSArray+Chameleon.m */,
+				00388931377BCE53439A93C314A03CC0 /* UIAppearance+Swift.h */,
+				FDFFF6EA0316528101C536E5A21165E3 /* UIAppearance+Swift.m */,
+				44EA351A2F526EB60EE7787B250D3AEC /* UIButton+Chameleon.h */,
+				C6C923908C9F05E0A00CFED59E4E0685 /* UIButton+Chameleon.m */,
+				C69F5D4DD141B5AB2F57401A1B6BB370 /* UIColor+Chameleon.h */,
+				ABB6F2AFA94D6C6096DD8FC81AE4C5FA /* UIColor+Chameleon.m */,
+				2CE2299E85439C47557A13AFAA381E0C /* UIColor+ChameleonPrivate.h */,
+				63C1DA36BECF8F6EB3AF6EF911B012F8 /* UIColor+ChameleonPrivate.m */,
+				36096647A7CA1D7E600C2F6D6820C42A /* UIImage+ChameleonPrivate.h */,
+				34CF8CAD658555566C04AC2EC79AD2AE /* UIImage+ChameleonPrivate.m */,
+				E817CBA81C0DDD081FDA82FDCE8A3F09 /* UILabel+Chameleon.h */,
+				AC50A712DE39393A9BDDAEB1D12164EC /* UILabel+Chameleon.m */,
+				10265169DA16A2F0B9223927F9CB1B03 /* UINavigationController+Chameleon.h */,
+				7C0C39A1C818F495EA0E433B2E9C3FDF /* UINavigationController+Chameleon.m */,
+				138D5D27D53779AAA5D505538615A211 /* UIView+ChameleonPrivate.h */,
+				61721D14D281D6A5C821D21F599BC97D /* UIView+ChameleonPrivate.m */,
+				89288DBD939CE3BC9D9EEBF02175337B /* UIViewController+Chameleon.h */,
+				CD1B17BC6C3A6E511AF517BFDE51B2C1 /* UIViewController+Chameleon.m */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		629A67F7AF291663089C4F43D5CA8E63 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				A5D64E9D236C43714DBCE923E0D3F06C /* FIRInstanceID.h */,
+				C058F5287DC3E77FEB1BC119C27E2866 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		6F1CA478194EDF4DAF70E740BE595CB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E36C43702E6DF1B5D9ABF852835E1D6 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73A9CABA328CB0E2230506155FA7E1F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C71F6968CDDD4930DA429ECD14FBDB1B /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7BA5516B325758D672D43257FEA0D808 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				253DBB771C3ECCFBAB40F125CF3C56EE /* Constraint.swift */,
+				95B6DFDEFA67763A32F64F396C6C09ED /* ConstraintAttributes.swift */,
+				63FE9957E5396A112EF3B67243103653 /* ConstraintDescription.swift */,
+				AC882BB3BDF697F32686FE458CC51C2B /* ConstraintItem.swift */,
+				D69952FDC28C754388B1B50FFBFC3B5F /* ConstraintMaker.swift */,
+				97BBEEDD90AFCA72BF541FFAB9E9E543 /* ConstraintRelation.swift */,
+				8D5770F11DDBFCBB1466227DF0CDBB50 /* Debugging.swift */,
+				2871861EB5AE9629F77BD3099AABA807 /* EdgeInsets.swift */,
+				48F79C34FA4A4DF1D11B7B2B0FBAC66E /* LayoutConstraint.swift */,
+				8169779ED575906A12D59AAA7874CC39 /* SnapKit.swift */,
+				E6D0CE9F8420DDA5E5D514A76F2DF7D6 /* View+SnapKit.swift */,
+				8EB56C70F920B3362413BAF6C68972A8 /* ViewController+SnapKit.swift */,
+				FDBC44C486A5289A38FE2A841853CD65 /* Support Files */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				C14D2E6244533EBF5AD2055C7D8A0BEB /* Pods */,
+				C8386A8C9441768AA8B685244C4D5596 /* Products */,
+				888525195C73C230C41479246B185843 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E42D449D3ACD0F20FFC2B940E64FAE3 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				12B5539FD47C461F8C422B7AF376F43B /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		82D5787E74E1ACB2C214E9746EB26707 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				321A3D4BEC008C8E880BA7309E8ECF49 /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82E8E839666CD51734F77C0C1BDE85C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B45AF3015BBE99771910D18C521965BF /* CariocaMenu.modulemap */,
+				7E3C6A2190D0C4F6A61011DD34D6B104 /* CariocaMenu.xcconfig */,
+				EB65A7256D44D485089096D5512196E7 /* CariocaMenu-dummy.m */,
+				92F63D1821D695497F5E38BD0AC24B3F /* CariocaMenu-prefix.pch */,
+				15C81D8767BC5D3C8BF00012DDC268DD /* CariocaMenu-umbrella.h */,
+				BA21780D44851A35010C52FD8A351E6E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CariocaMenu";
+			sourceTree = "<group>";
+		};
+		888525195C73C230C41479246B185843 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3B2B229D6D9AC7F0280FB75F0227D3C /* Pods-PotableWater */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8BA2110564D0F96F6C540343312DCA96 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				6F1CA478194EDF4DAF70E740BE595CB9 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		8DC469166D605DBD7B2DA77FF8A17089 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				02532795F15E225302618D5D9BD6710C /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		9112F974558D4E6662AA755107462028 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70AEEFE00EA23B26F81562778AEB392D /* GoogleParsingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E6BAB69ACE88A4F3A136E7B92E91AB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CFC675114C4F601FFA4C62EDE89E1AC /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD392A1A33985F035EF0B0D41F5168C1 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				51173793132E538FEE2CE6ADC1DB09E1 /* IQBarButtonItem.swift */,
+				B403A9F264C0AD2DBE9AAD41AC4B61EC /* IQKeyboardManager.swift */,
+				0C943E6881CA5A0D281A804973297086 /* IQKeyboardManagerConstants.swift */,
+				BF379952B88F6512681335C25A19B7CA /* IQKeyboardManagerConstantsInternal.swift */,
+				24733BE4DCDB69CF32F9E157C59E111A /* IQKeyboardReturnKeyHandler.swift */,
+				C9DBD2DDA2CB0A831E4F0BF60E4E8B5D /* IQNSArray+Sort.swift */,
+				18718FF4164C4AACAA74D3F3E05F0482 /* IQPreviousNextView.swift */,
+				555008FBFAF9B5B0BFB2D7C0400ECA9C /* IQTextView.swift */,
+				4BE59140E91E564B696B39B323955694 /* IQTitleBarButtonItem.swift */,
+				F56F4742285532A2EF1F77A7222B0093 /* IQToolbar.swift */,
+				A0A62F2DA7EEDCB9EF9CB520B159BA9F /* IQUIScrollView+Additions.swift */,
+				DBBE1A21476F22C8680085200BD9AC23 /* IQUITextFieldView+Additions.swift */,
+				8DA531F9A697D20060FA8165EB08824B /* IQUIView+Hierarchy.swift */,
+				437C9CF51D92FF64B421F50341D5066F /* IQUIView+IQKeyboardToolbar.swift */,
+				88CEB7B22E5A1ACA7B376ED952105F1C /* IQUIViewController+Additions.swift */,
+				0A62A2E5E5E563F4510F6F8E53F40445 /* IQUIWindow+Hierarchy.swift */,
+				73A9CABA328CB0E2230506155FA7E1F8 /* Resources */,
+				FF803371DE023CD945849A0D930CDBAF /* Support Files */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		AF5BD4BBD3FA5F450D693C05CA416FCB /* ChameleonFramework */ = {
+			isa = PBXGroup;
+			children = (
+				4EC6D1103B55246E354379983892A4C8 /* Default */,
+				2A765FC3871E1B4864FA36C9D362C3B3 /* Support Files */,
+			);
+			path = ChameleonFramework;
+			sourceTree = "<group>";
+		};
+		BE9CAD94F3ADC0A91CD07526E38EDDFA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E3212D7BC0710FE50E49B5AD2D9C0D0F /* CoreGraphics.framework */,
+				8D31AF728F56D0CAFFECA7DF51E2E0E6 /* Foundation.framework */,
+				CAA250D6AAA3D67B08752113FC8DF203 /* QuartzCore.framework */,
+				32BFCC5FCF20BECEF409508768C21E64 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C058F5287DC3E77FEB1BC119C27E2866 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				826A2EDC662C5E33EFC3DF8FE24B0339 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C14D2E6244533EBF5AD2055C7D8A0BEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F324101BF5841E258504EAC041DCAEF /* CariocaMenu */,
+				AF5BD4BBD3FA5F450D693C05CA416FCB /* ChameleonFramework */,
+				35076ECCB1DE994D94F8BCFB4692C455 /* Firebase */,
+				F17364257FF9C1B2BC4C3A242C4C393D /* FirebaseAnalytics */,
+				FBA77E3085D239E584E3E2F6170D6772 /* FirebaseAuth */,
+				8BA2110564D0F96F6C540343312DCA96 /* FirebaseDatabase */,
+				629A67F7AF291663089C4F43D5CA8E63 /* FirebaseInstanceID */,
+				E6FC35D0457AB7D237B0E896EBF35DD0 /* GoogleInterchangeUtilities */,
+				34A9B081B92F44AE8E5CED0B7AA5C6D5 /* GoogleNetworkingUtilities */,
+				D67E331B52EF85952F8766EC9072B28B /* GoogleParsingUtilities */,
+				F39AE87D34750F3536429C2BB72F2C7B /* GoogleSymbolUtilities */,
+				7E42D449D3ACD0F20FFC2B940E64FAE3 /* GoogleUtilities */,
+				AD392A1A33985F035EF0B0D41F5168C1 /* IQKeyboardManagerSwift */,
+				7BA5516B325758D672D43257FEA0D808 /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8386A8C9441768AA8B685244C4D5596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AAEF9082A33B8219920D3C9106110BF /* CariocaMenu.framework */,
+				72DF7EE246A5A0382C47AE537D2773A8 /* ChameleonFramework.framework */,
+				642B985D61A3AA6FE448B55E74C59F7D /* IQKeyboardManagerSwift.framework */,
+				2A79D3405938E5DB012699EC14918D01 /* Pods_PotableWater.framework */,
+				3C5C24EEFC9FA6E7AF240328059B4848 /* SnapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D38AD1DBA3D5F1B3591FAFD8A61AE82A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89343F5FF5CBFAA4B51E320A94528B04 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D67E331B52EF85952F8766EC9072B28B /* GoogleParsingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				9112F974558D4E6662AA755107462028 /* Frameworks */,
+			);
+			path = GoogleParsingUtilities;
+			sourceTree = "<group>";
+		};
+		E3B2B229D6D9AC7F0280FB75F0227D3C /* Pods-PotableWater */ = {
+			isa = PBXGroup;
+			children = (
+				9DA472E13355236F20AEF614344E1F48 /* Info.plist */,
+				DC1075FA9EB1B924E2D6D7D86C2764F0 /* Pods-PotableWater.modulemap */,
+				A60AEAFDF40C5D175ADE81A102F1D090 /* Pods-PotableWater-acknowledgements.markdown */,
+				5072B099EBF1CE0139D214D234276100 /* Pods-PotableWater-acknowledgements.plist */,
+				03149A579E37E82ECABF1F59518819A4 /* Pods-PotableWater-dummy.m */,
+				9DECD5DCF8F1218FBBA768292972EEDA /* Pods-PotableWater-frameworks.sh */,
+				335427756D04DAAE7F67EE3744046300 /* Pods-PotableWater-resources.sh */,
+				BCABDBF8BDD8D6A106B5F7C3E6EF0A44 /* Pods-PotableWater-umbrella.h */,
+				F1972338684B322B893A48DAC20B4EAF /* Pods-PotableWater.debug.xcconfig */,
+				0FA82415C4F56EE9AB85517724DA2B73 /* Pods-PotableWater.release.xcconfig */,
+			);
+			name = "Pods-PotableWater";
+			path = "Target Support Files/Pods-PotableWater";
+			sourceTree = "<group>";
+		};
+		E6FC35D0457AB7D237B0E896EBF35DD0 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				FEEA0452A0D614F241417CDEACAFD352 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		F17364257FF9C1B2BC4C3A242C4C393D /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				1C8FA7F0EA3660141E39FA95CE2BECFC /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		F39AE87D34750F3536429C2BB72F2C7B /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				D38AD1DBA3D5F1B3591FAFD8A61AE82A /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		FBA77E3085D239E584E3E2F6170D6772 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				82D5787E74E1ACB2C214E9746EB26707 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		FDBC44C486A5289A38FE2A841853CD65 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4030237BF5F3BAC521F5FE05B5A386B6 /* Info.plist */,
+				6877AB7B8D3BB1BA926A192070F74F04 /* SnapKit.modulemap */,
+				C68D78B5BA0B2675A72F943E817D832E /* SnapKit.xcconfig */,
+				2E6D4CB39C17934C5B0D329CA0B8F580 /* SnapKit-dummy.m */,
+				EA16A0AFAC32DD7DFADD50DAEC9226EE /* SnapKit-prefix.pch */,
+				98C66C3D232BB70926797B76BC2564D9 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		FEEA0452A0D614F241417CDEACAFD352 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				946300492A1B5D67B5B8F2FCBBFCE9F6 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF803371DE023CD945849A0D930CDBAF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57482D712332943BC319E12AC7139879 /* Info.plist */,
+				5B2CA9EE7096F8F638934A10E1AC7958 /* IQKeyboardManagerSwift.modulemap */,
+				712553FBC0495C4E3E9E3F52D93D6CBD /* IQKeyboardManagerSwift.xcconfig */,
+				FFCE60FD192933F129D4619413F69F3B /* IQKeyboardManagerSwift-dummy.m */,
+				A35BE04EF4FFBF2BCB1DDE4FC8D08A0F /* IQKeyboardManagerSwift-prefix.pch */,
+				102035E3ABDF430CC44415D02317ABA2 /* IQKeyboardManagerSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManagerSwift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A93BE0D0DC1CEFC7746ED331F56A998 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0508822F1FCECD98EE644EACE40DFA55 /* Pods-PotableWater-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F639DE65D946A85FEBA9C514E7C1F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CC9B27F3CF472FE72A905E8C2D7A9D /* Chameleon.h in Headers */,
+				E04963F0C6D76377186361A0AF79A4C6 /* Chameleon_.h in Headers */,
+				4B181B0AC8894DE05050B3F6718D392C /* ChameleonConstants.h in Headers */,
+				E53E2CD0E939A133E73880E7B3BB4DBF /* ChameleonEnums.h in Headers */,
+				FA90B7D6EBE7A289796856FF2B310FC0 /* ChameleonFramework-umbrella.h in Headers */,
+				41E19345B5C2331DAA02119D782F4E5F /* ChameleonMacros.h in Headers */,
+				C61ED2CF225C6D9872D34F5455C945D4 /* NSArray+Chameleon.h in Headers */,
+				F85099F6E9B7DB837BAB856EB61A6F07 /* UIAppearance+Swift.h in Headers */,
+				3CCCC6F0C10F65283522C54CF1D6E761 /* UIButton+Chameleon.h in Headers */,
+				C5D22B9D6600C31DC02CEC59BDA086B0 /* UIColor+Chameleon.h in Headers */,
+				CC51E5C010ABC87B9CAAA1CB721A6A94 /* UIColor+ChameleonPrivate.h in Headers */,
+				1DE26E57570167EE496080D68F855A01 /* UIImage+ChameleonPrivate.h in Headers */,
+				3132A9EBC1F85B6971B934C88914CD58 /* UILabel+Chameleon.h in Headers */,
+				C84DFC79CACF46C6275670861ADBA6D4 /* UINavigationController+Chameleon.h in Headers */,
+				B3429381360BE9C37D00301284E4B63A /* UIView+ChameleonPrivate.h in Headers */,
+				7EDDB8F47291F592694D7135A10DAFFF /* UIViewController+Chameleon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69907BF03ED97B9B77A7C8FF647D70A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0AED1A692512B9A329D49C4380D1F9 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86158EF160C9C4B7AEFFCE7FC59E599B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139250EF8D4E404AD5019BA8966C0ED0 /* IQKeyboardManagerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C503DAAD88B295687DC29F11C4583D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467432A72F499AA8143296FC2AD075A2 /* CariocaMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1520003FEBEC114D6C84F832AFEDB994 /* IQKeyboardManagerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F787E77C0D561F29D856299FA55DC83 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */;
+			buildPhases = (
+				161601383DEA1F2FC6BB5588B4EE58C9 /* Sources */,
+				5F240EC2E1E7F76CA22386F9552295F0 /* Frameworks */,
+				F2ABA137ACF3E3B0178934EFFBA9007C /* Resources */,
+				86158EF160C9C4B7AEFFCE7FC59E599B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManagerSwift;
+			productName = IQKeyboardManagerSwift;
+			productReference = 642B985D61A3AA6FE448B55E74C59F7D /* IQKeyboardManagerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		71027715F6476203999172EC4D1350F6 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823E1AFA39F3B844CC757BBE27E3A95B /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				E444D3C25B6990F6087A771397ADE5F0 /* Sources */,
+				688E46E1C558386BACB556BA8E9295C7 /* Frameworks */,
+				69907BF03ED97B9B77A7C8FF647D70A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 3C5C24EEFC9FA6E7AF240328059B4848 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		751982C2DD3296AD5D3FE0F1A9D974DA /* CariocaMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11DA858EC10D8926E5E230367CF78CD1 /* Build configuration list for PBXNativeTarget "CariocaMenu" */;
+			buildPhases = (
+				031077B2ABAA87B9903292DA87ECB090 /* Sources */,
+				B1E93587EE3C8D9C4D050873DBCB44D4 /* Frameworks */,
+				E8C503DAAD88B295687DC29F11C4583D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CariocaMenu;
+			productName = CariocaMenu;
+			productReference = 8AAEF9082A33B8219920D3C9106110BF /* CariocaMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8023AFB1B7BC808EE5483B46FFD979FD /* Pods-PotableWater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADB9217103BF56F13A7765F379ACECC /* Build configuration list for PBXNativeTarget "Pods-PotableWater" */;
+			buildPhases = (
+				10EA62B6B0EFCF61EC2B527F4C8BAEB3 /* Sources */,
+				EF9D6AFBBB57F7E86E9B5DD2F1563CAD /* Frameworks */,
+				1A93BE0D0DC1CEFC7746ED331F56A998 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91B142A6A6A2A99818E336ECBC9722EF /* PBXTargetDependency */,
+				BB38CA21EA699A69BD96AC9D9E4EB4C9 /* PBXTargetDependency */,
+				94E869129F2887571DF420301C7A07BB /* PBXTargetDependency */,
+				F4338D288F150AD51446EF7C1BF8C850 /* PBXTargetDependency */,
+			);
+			name = "Pods-PotableWater";
+			productName = "Pods-PotableWater";
+			productReference = 2A79D3405938E5DB012699EC14918D01 /* Pods_PotableWater.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B57F4EE4746045CEAE2D933A3C8EC9E /* ChameleonFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085A04470B2B1DFD89B69ED30150E0C0 /* Build configuration list for PBXNativeTarget "ChameleonFramework" */;
+			buildPhases = (
+				89476504D00DCE7D76865152A8267270 /* Sources */,
+				3D0E661242C853E94F4299270086801D /* Frameworks */,
+				40F639DE65D946A85FEBA9C514E7C1F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChameleonFramework;
+			productName = ChameleonFramework;
+			productReference = 72DF7EE246A5A0382C47AE537D2773A8 /* ChameleonFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C8386A8C9441768AA8B685244C4D5596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				751982C2DD3296AD5D3FE0F1A9D974DA /* CariocaMenu */,
+				9B57F4EE4746045CEAE2D933A3C8EC9E /* ChameleonFramework */,
+				1520003FEBEC114D6C84F832AFEDB994 /* IQKeyboardManagerSwift */,
+				8023AFB1B7BC808EE5483B46FFD979FD /* Pods-PotableWater */,
+				71027715F6476203999172EC4D1350F6 /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2ABA137ACF3E3B0178934EFFBA9007C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C3425F45F1374791CB8B07AD01942D /* IQKeyboardManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031077B2ABAA87B9903292DA87ECB090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B84517F8580A35AD4939E671F19FE1 /* CariocaMenu-dummy.m in Sources */,
+				8FA4A2FB3306C4DE48DECBA15A47C663 /* CariocaMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10EA62B6B0EFCF61EC2B527F4C8BAEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABED6A397C0C97A8B7E9C839475E362B /* Pods-PotableWater-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		161601383DEA1F2FC6BB5588B4EE58C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EDB944284E74970F312CB7F2910C07 /* IQBarButtonItem.swift in Sources */,
+				B6DB24F02D71E5B838910D3CCD1723F9 /* IQKeyboardManager.swift in Sources */,
+				0264E6DA5DAC8713C174F983B218D10D /* IQKeyboardManagerConstants.swift in Sources */,
+				879EDC2C7E8100C20DD5C06ACCF75467 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				B1709542A41A677BA835CEC032F4DB2D /* IQKeyboardManagerSwift-dummy.m in Sources */,
+				A3FAEF9CA01F3716E2B562F58AFAA046 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				59D87C6DDEE038D47CC06ECFA3478F66 /* IQNSArray+Sort.swift in Sources */,
+				A2FF64B577CEAC43E765D9E4AF96F432 /* IQPreviousNextView.swift in Sources */,
+				C2905200A0CEA22AF403EE0B5E244CEF /* IQTextView.swift in Sources */,
+				C66E57E618FD5536917D0052777CC8EB /* IQTitleBarButtonItem.swift in Sources */,
+				91030AF37F93914AB64B6D95F55E762D /* IQToolbar.swift in Sources */,
+				2641CD2EBD374904D2E5759683B97B76 /* IQUIScrollView+Additions.swift in Sources */,
+				C76E3B78D128469AB4CBF1B4D1708360 /* IQUITextFieldView+Additions.swift in Sources */,
+				989EE4ED1C86991E81339AF1CBF3654A /* IQUIView+Hierarchy.swift in Sources */,
+				BACEB4A1F7183C8A34C16333AA0CFC88 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				3B082E6ACCC2D096E28EE29CE82F89F6 /* IQUIViewController+Additions.swift in Sources */,
+				5DCD12C2C139245388578C182CACC06D /* IQUIWindow+Hierarchy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89476504D00DCE7D76865152A8267270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1FF907F6AD5186FAF926C0F20083AE /* Chameleon_.m in Sources */,
+				5BF38591007E7E4ADAD878E405949598 /* ChameleonConstants.m in Sources */,
+				DDD470435EE37EBA46CD0FF081559295 /* ChameleonFramework-dummy.m in Sources */,
+				160634C0F5454A32E810DDF5BA9E5985 /* NSArray+Chameleon.m in Sources */,
+				7A8C05065D9F9BA2C218F75AD6B1F798 /* UIAppearance+Swift.m in Sources */,
+				1716FA0939818C49FE4BBE6A658E9834 /* UIButton+Chameleon.m in Sources */,
+				4E53C48294089DC928E3A7BD1C2DE4D7 /* UIColor+Chameleon.m in Sources */,
+				00E3A68D030F24BE47B99D1D1A1720E2 /* UIColor+ChameleonPrivate.m in Sources */,
+				072BEEF7E71F00675E87028A9A668B84 /* UIImage+ChameleonPrivate.m in Sources */,
+				9EEBF7B1602C1C17236C4EA0DD9717E2 /* UILabel+Chameleon.m in Sources */,
+				23795D7EC1AF274A6AFF4233B1E84C4C /* UINavigationController+Chameleon.m in Sources */,
+				F32D7BD1DA58639964C91FA86A002AB4 /* UIView+ChameleonPrivate.m in Sources */,
+				2E2946436612A5B920BE18E09BF80CAF /* UIViewController+Chameleon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E444D3C25B6990F6087A771397ADE5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D27B8BB7D176C72C4869C18A9CD171 /* Constraint.swift in Sources */,
+				46DBC0D437F63AEC2B648232C81315E1 /* ConstraintAttributes.swift in Sources */,
+				B77C5A843A68E89AE7316DE3462B0A3A /* ConstraintDescription.swift in Sources */,
+				5100E776656DEB6881B926F2B4F88D47 /* ConstraintItem.swift in Sources */,
+				4959FD0B8A9C9EE88269C0C4860A8148 /* ConstraintMaker.swift in Sources */,
+				B19DAE9773A2D1C69E7C9A9812D3E27E /* ConstraintRelation.swift in Sources */,
+				1E77BE7819B5DCB3BFBB7B80AEAE35BF /* Debugging.swift in Sources */,
+				FA572FBF52E72DDB02512266A1D44F2F /* EdgeInsets.swift in Sources */,
+				1704F8676220C6AC2774E63297A7810A /* LayoutConstraint.swift in Sources */,
+				8B167C3CE524E7490763846BC47C5824 /* SnapKit-dummy.m in Sources */,
+				5D7A6497FAA9C3B0686572AAE46AB779 /* SnapKit.swift in Sources */,
+				A2A452C71C8D9F1EED2FB1C611B50BF1 /* View+SnapKit.swift in Sources */,
+				333BDD2D3C8A0DA37682191E2A9BABAF /* ViewController+SnapKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91B142A6A6A2A99818E336ECBC9722EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CariocaMenu;
+			target = 751982C2DD3296AD5D3FE0F1A9D974DA /* CariocaMenu */;
+			targetProxy = 3A0716616F2DA2A07C6FCC39EB6AC000 /* PBXContainerItemProxy */;
+		};
+		94E869129F2887571DF420301C7A07BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = 1520003FEBEC114D6C84F832AFEDB994 /* IQKeyboardManagerSwift */;
+			targetProxy = B3346F1799F585BF56101D4981511F3A /* PBXContainerItemProxy */;
+		};
+		BB38CA21EA699A69BD96AC9D9E4EB4C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChameleonFramework;
+			target = 9B57F4EE4746045CEAE2D933A3C8EC9E /* ChameleonFramework */;
+			targetProxy = 18D05256286AF498838045C677D6E6E9 /* PBXContainerItemProxy */;
+		};
+		F4338D288F150AD51446EF7C1BF8C850 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 71027715F6476203999172EC4D1350F6 /* SnapKit */;
+			targetProxy = 962934E3AC56AF3C66A87E1137CA0DD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13AB90DFEED71409E91F9FFB7ED07B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3C6A2190D0C4F6A61011DD34D6B104 /* CariocaMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CariocaMenu/CariocaMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CariocaMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CariocaMenu/CariocaMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CariocaMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B808AC535EB057B9728A36BC00A41C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C68D78B5BA0B2675A72F943E817D832E /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		230627114B2C38570ACA8ADAD63196F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA82415C4F56EE9AB85517724DA2B73 /* Pods-PotableWater.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PotableWater/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PotableWater/Pods-PotableWater.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PotableWater;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3113D99590C0C763554C1BABFD3BF2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3C6A2190D0C4F6A61011DD34D6B104 /* CariocaMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CariocaMenu/CariocaMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CariocaMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CariocaMenu/CariocaMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CariocaMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5B3C01BCDA5A0604C0D71250BA77EC8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 712553FBC0495C4E3E9E3F52D93D6CBD /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		64F8C5860E97854786B8BA4C67EC0787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1972338684B322B893A48DAC20B4EAF /* Pods-PotableWater.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PotableWater/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PotableWater/Pods-PotableWater.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PotableWater;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A544584273C6081943F4877B55605CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 712553FBC0495C4E3E9E3F52D93D6CBD /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D74F64C08344E2A30D1FC66C331D3682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BE817E1E573E7F2D64B26E6D1DD4F9 /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E46F16042DD7EF9846376915EEB1EB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BE817E1E573E7F2D64B26E6D1DD4F9 /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9C146B77CC6732F5FD01843BF7D87F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C68D78B5BA0B2675A72F943E817D832E /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		085A04470B2B1DFD89B69ED30150E0C0 /* Build configuration list for PBXNativeTarget "ChameleonFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74F64C08344E2A30D1FC66C331D3682 /* Debug */,
+				E46F16042DD7EF9846376915EEB1EB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11DA858EC10D8926E5E230367CF78CD1 /* Build configuration list for PBXNativeTarget "CariocaMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3113D99590C0C763554C1BABFD3BF2EC /* Debug */,
+				13AB90DFEED71409E91F9FFB7ED07B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ADB9217103BF56F13A7765F379ACECC /* Build configuration list for PBXNativeTarget "Pods-PotableWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F8C5860E97854786B8BA4C67EC0787 /* Debug */,
+				230627114B2C38570ACA8ADAD63196F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823E1AFA39F3B844CC757BBE27E3A95B /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C146B77CC6732F5FD01843BF7D87F1 /* Debug */,
+				1B808AC535EB057B9728A36BC00A41C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F787E77C0D561F29D856299FA55DC83 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3C01BCDA5A0604C0D71250BA77EC8B /* Debug */,
+				A544584273C6081943F4877B55605CB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
